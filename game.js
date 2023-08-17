@@ -103,7 +103,7 @@ function start()
 {
     //console.log(matrix)
     CELL_COLOR = "rgb(29, 28, 28)"
-    let id = setInterval(move,250)
+    let id = setInterval(move,100)
     function move()
     {
         change_in_matrix()
